@@ -1,0 +1,6 @@
+[submodule "/Users/chengxi/.vim/pack/vim_package/start/nerdtree"]
+	path = /Users/chengxi/.vim/pack/vim_package/start/nerdtree
+	url = https://github.com/preservim/nerdtree.git
+[submodule "/Users/chengxi/.vim/pack/vim_package/start/vim-easy-align"]
+	path = /Users/chengxi/.vim/pack/vim_package/start/vim-easy-align
+	url = https://github.com/junegunn/vim-easy-align.git
