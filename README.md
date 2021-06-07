@@ -8,7 +8,8 @@ vim插件管理
 3. 克隆本git：`git clone https://github.com/dachengxi/vim_package.git`
 4. 可选步骤：如果`~/.vim/pack/vim_package`目录下没有start或者opt目录，可自行进行创建两个目录
 5. 执行`git submodule init`
-6. 添加插件，先进入`~/.vim/pack/vim_package`目录下，然后执行：`git submodule add xxxxx start/xxxxx`
+6. 执行`git submodule update`
+7. 手动添加插件，先进入`~/.vim/pack/vim_package`目录下，然后执行：`git submodule add xxxxx start/xxxxx`
 
 # 插件
 
