@@ -8,9 +8,11 @@ vim插件管理
 3. 克隆本git：`git clone https://github.com/dachengxi/vim_package.git`
 4. 可选步骤：如果`~/.vim/pack/vim_package`目录下没有start或者opt目录，可自行进行创建两个目录
 5. 执行`git submodule init`
-6. 添加插件：`git submodule add xxxxx ~/.vim/pack/vim_package/start/xxxxx`
+6. 添加插件，先进入`~/.vim/pack/vim_package`目录下，然后执行：`git submodule add xxxxx start/xxxxx`
 
 # 插件
+
+添加插件先进入`~/.vim/pack/vim_package`目录下
 
 ## NERDTree
 
@@ -18,7 +20,7 @@ vim插件管理
 
 ### 添加插件
 
-`git submodule add https://github.com/preservim/nerdtree.git ~/.vim/pack/vim_package/start/nerdtree`
+`git submodule add https://github.com/preservim/nerdtree.git start/nerdtree`
 
 ### 添加文档说明
 
@@ -34,7 +36,7 @@ vim插件管理
 
 ### 添加插件
 
-`git submodule add https://github.com/junegunn/vim-easy-align.git ~/.vim/pack/vim_package/start/vim-easy-align`
+`git submodule add https://github.com/junegunn/vim-easy-align.git start/vim-easy-align`
 
 ### 添加文档说明
 
