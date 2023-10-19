@@ -5,7 +5,7 @@ vim插件管理
 
 1. 创建目录`~/.vim/pack`
 2. 进入目录`cd ~/.vim/pack`
-3. 克隆本git：`git clone https://github.com/dachengxi/vim_package.git`
+3. 克隆本git：`git clone https://github.com/pulllock/vim_package.git`
 4. 可选步骤：如果`~/.vim/pack/vim_package`目录下没有start或者opt目录，可自行进行创建两个目录
 5. 执行`git submodule init`
 6. 执行`git submodule update`
